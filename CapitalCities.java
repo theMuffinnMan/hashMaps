@@ -23,5 +23,13 @@ public class CapitalCities
         capCities.put("USA", "Washington DC");
         
         System.out.println(capCities);
+        System.out.println("New Zealand");
+        
+        //remove keys
+        capCities.remove("USA");
+        System.out.println(capCities);
+        
+        //check the size
+        System.out.println(capCities.size());
     }
 }
